@@ -1,7 +1,12 @@
-a = int(input())
-b = int(input())
+a, b = [int(i) for i in (input().split())]
+A,B = set(), set()   
 for i in range(a):
-    anna = list(input().split())
+    A.add(int(input()))
 for i in range(b):
-    boris = list(input().split())
-print(anna)    
+    B.add(int(input()))
+print(len(set(A)&set(B)))      
+print(*sorted(set(A)&set(B)))
+print(len(set(A)-set(B)))  
+print(*sorted(set(A)-set(B)))
+print(len(set(B)-set(A)))  
+print(*sorted(set(B)-set(A)))
