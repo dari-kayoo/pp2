@@ -1,0 +1,6 @@
+a = int(2.8)
+print(a)
+b = float(5)
+print(b)
+c = str(5)
+print("this is string" + c)
