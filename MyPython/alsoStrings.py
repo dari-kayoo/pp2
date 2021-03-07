@@ -1,6 +1,6 @@
-#immutable strinngs
-#cancaneble
-#multiplication
+# immutable strinngs
+# cancaneble
+# multiplication
 yummy = 'Yum'
 print(yummy.upper())
 long_string = 'this is sting'

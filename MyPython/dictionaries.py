@@ -17,30 +17,30 @@
 
 # #this deleting is true
 # carPrices.clear()
-#print(carPrices)
+# print(carPrices)
 
 person = {
-    'first name' : 'Dariga',
-    'last name' : 'Zhakysh',
-    'age' : 18,
-    'hobbies' : ['dancing', 'reading', 'sewing', 'playing volleyball'],
-    'disciplines' : {'Wednesday' : 'English',
-                     'Thursday' : 'Calculus',
-                     'Friday' : 'Statistics'} 
+    'first name': 'Dariga',
+    'last name': 'Zhakysh',
+    'age': 18,
+    'hobbies': ['dancing', 'reading', 'sewing', 'playing volleyball'],
+    'disciplines': {'Wednesday': 'English',
+                    'Thursday': 'Calculus',
+                    'Friday': 'Statistics'}
 }
-print(person['age'])
-print(person['hobbies'][2])
-hobbies = person['hobbies']
-print(hobbies[2])
+# print(person['age'])
+# print(person['hobbies'][2])
+# hobbies = person['hobbies']
+# print(hobbies[2])
 
-disciplines = person['disciplines']
-print(disciplines['Wednesday'])
-print(person['disciplines']['Thursday'])
-person['car'] = 'toyoto'
-print(person)
+# disciplines = person['disciplines']
+# print(disciplines['Wednesday'])
+# print(person['disciplines']['Thursday'])
+# person['car'] = 'toyoto'
+# print(person)
 
-person['hobbies'][0] = 'painting'
-print(person['hobbies'])
+# person['hobbies'][0] = 'painting'
+# print(person['hobbies'])
 
 print(person.keys())
 print(person.values())
